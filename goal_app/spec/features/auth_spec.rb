@@ -17,7 +17,7 @@ feature 'the signup process' do
   
 
   feature 'signing up a user' do
-    scenario 'shows username on the homepage after signung up' do
+    scenario 'shows username on the homepage after signing up' do
       fill_in 'Username', with: 'mavers'
       fill_in 'Password', with: 'doggies'
       click_button 'Sign Up'
